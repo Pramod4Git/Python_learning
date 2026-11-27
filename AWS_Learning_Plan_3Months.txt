@@ -1,0 +1,1863 @@
+================================================================================
+              AWS CLOUD COMPUTING - 3 MONTH LEARNING PLAN
+                    (Zero to AWS Certified Cloud Practitioner)
+================================================================================
+
+Target: Learn AWS from absolute zero to job-ready skills
+Duration: 12 Weeks (90 Days)
+Daily Commitment: 1.5 - 2 hours
+Goal: Pass AWS Cloud Practitioner Certification + Hands-on Skills
+
+================================================================================
+                         IMPORTANT: BEFORE YOU START
+================================================================================
+
+PRE-REQUISITES:
+  [ ] Basic computer knowledge
+  [ ] Internet connection
+  [ ] Credit/Debit card (for AWS Free Tier - won't be charged)
+  [ ] Willingness to learn!
+
+TOOLS YOU'LL NEED:
+  [ ] Web browser (Chrome recommended)
+  [ ] Notepad or note-taking app
+  [ ] AWS Free Tier Account (create on Day 1)
+
+IMPORTANT LINKS (Bookmark these):
+  - AWS Console: https://console.aws.amazon.com/
+  - AWS Free Tier: https://aws.amazon.com/free/
+  - AWS Skill Builder: https://skillbuilder.aws/
+  - AWS Documentation: https://docs.aws.amazon.com/
+
+================================================================================
+                    MONTH 1: CLOUD FUNDAMENTALS & AWS BASICS
+================================================================================
+
+******************************************************************************
+                              WEEK 1: CLOUD COMPUTING BASICS
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 1: What is Cloud Computing?
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] What is Cloud Computing?
+      - On-demand delivery of IT resources over the internet
+      - Pay-as-you-go pricing (like electricity bill)
+      - No need to buy/maintain physical servers
+  
+  [ ] Traditional IT vs Cloud Computing
+      Traditional: Buy servers → Set up → Maintain → Replace
+      Cloud: Request → Use → Pay for what you use → Stop anytime
+
+  [ ] Benefits of Cloud Computing
+      - No upfront cost (CapEx → OpEx)
+      - Scalability (grow/shrink as needed)
+      - Global reach (deploy worldwide in minutes)
+      - High availability (always running)
+      - Security (managed by experts)
+
+WATCH (30 mins):
+  [ ] YouTube: "Cloud Computing Explained" - Simplilearn
+      https://www.youtube.com/watch?v=M988_fsOSWo
+
+  [ ] YouTube: "What is Cloud Computing?" - Amazon Web Services
+      https://www.youtube.com/watch?v=mxT233EdY5c
+
+NOTES TO MAKE:
+  - Write 5 benefits of cloud computing in your own words
+  - List 3 examples where you already use cloud (Gmail, Netflix, etc.)
+
+------------------------------------------------------------------------------
+DAY 2: Cloud Service Models (IaaS, PaaS, SaaS)
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] Three Cloud Service Models:
+
+      ┌─────────────────────────────────────────────────────────┐
+      │                    YOU MANAGE                           │
+      ├─────────────────────────────────────────────────────────┤
+      │                                                         │
+      │  IaaS              PaaS              SaaS               │
+      │  (Infrastructure)  (Platform)        (Software)         │
+      │                                                         │
+      │  ┌───────────┐    ┌───────────┐    ┌───────────┐       │
+      │  │Application│    │Application│    │           │       │
+      │  │   Data    │    │   Data    │    │           │       │
+      │  │  Runtime  │    │           │    │   Cloud   │       │
+      │  │ Middleware│    │   Cloud   │    │  Provider │       │
+      │  ├───────────┤    │  Provider │    │  Manages  │       │
+      │  │    O/S    │    │  Manages  │    │Everything │       │
+      │  │Virtualize │    │   Below   │    │           │       │
+      │  │  Servers  │    │           │    │           │       │
+      │  │  Storage  │    │           │    │           │       │
+      │  │ Networking│    │           │    │           │       │
+      │  └───────────┘    └───────────┘    └───────────┘       │
+      │     AWS EC2        AWS Elastic       Gmail             │
+      │                    Beanstalk         Salesforce        │
+      │                                      Dropbox           │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] IaaS (Infrastructure as a Service)
+      - You rent: servers, storage, networking
+      - You manage: OS, applications, data
+      - Example: AWS EC2, Azure VMs
+      - Analogy: Renting an empty apartment
+
+  [ ] PaaS (Platform as a Service)
+      - You get: ready platform to deploy apps
+      - You manage: only your application and data
+      - Example: AWS Elastic Beanstalk, Heroku
+      - Analogy: Renting a furnished apartment
+
+  [ ] SaaS (Software as a Service)
+      - You get: complete software ready to use
+      - You manage: nothing (just use it)
+      - Example: Gmail, Salesforce, Zoom
+      - Analogy: Staying in a hotel
+
+WATCH (30 mins):
+  [ ] YouTube: "IaaS vs PaaS vs SaaS" - IBM Technology
+      https://www.youtube.com/watch?v=36zducUX16w
+
+PRACTICE:
+  - List 5 SaaS applications you use daily
+  - Identify whether these are IaaS/PaaS/SaaS:
+    * Netflix = ?
+    * AWS EC2 = ?
+    * Heroku = ?
+    * Google Docs = ?
+
+------------------------------------------------------------------------------
+DAY 3: Cloud Deployment Models & AWS Introduction
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] Cloud Deployment Models:
+
+      PUBLIC CLOUD
+      - Resources shared among multiple customers
+      - Managed entirely by cloud provider
+      - Examples: AWS, Azure, Google Cloud
+      - Best for: Most businesses, startups
+
+      PRIVATE CLOUD
+      - Dedicated to single organization
+      - Can be on-premises or hosted
+      - More control, more responsibility
+      - Best for: Banks, Government, Healthcare
+
+      HYBRID CLOUD
+      - Mix of public and private
+      - Connect on-premises to cloud
+      - Best for: Gradual cloud migration
+
+  [ ] What is AWS?
+      - Amazon Web Services
+      - Launched in 2006
+      - World's largest cloud provider (32% market share)
+      - 200+ services available
+      - Used by: Netflix, Airbnb, NASA, McDonald's
+
+  [ ] Why AWS?
+      - Most mature cloud platform
+      - Largest community & job market
+      - Most certifications recognized
+      - Comprehensive free tier
+
+WATCH (30 mins):
+  [ ] YouTube: "What is AWS?" - Amazon Web Services
+  [ ] YouTube: "AWS in 10 Minutes" - Fireship
+
+READ (15 mins):
+  [ ] https://aws.amazon.com/what-is-aws/
+
+------------------------------------------------------------------------------
+DAY 4: Create AWS Free Tier Account (HANDS-ON!)
+------------------------------------------------------------------------------
+IMPORTANT: This is your first hands-on day!
+
+ACTION STEPS (60 mins):
+  [ ] Step 1: Go to https://aws.amazon.com/free/
+  
+  [ ] Step 2: Click "Create a Free Account"
+  
+  [ ] Step 3: Enter your details:
+      - Email address (use personal email)
+      - AWS account name (e.g., "MyLearningAccount")
+      - Password (strong, save it safely!)
+  
+  [ ] Step 4: Contact Information
+      - Select "Personal" account type
+      - Fill your name, phone, address
+  
+  [ ] Step 5: Payment Information
+      - Enter credit/debit card details
+      - AWS will charge $1 (refunded) to verify
+      - You WON'T be charged if you stay in Free Tier!
+  
+  [ ] Step 6: Identity Verification
+      - Enter phone number
+      - Receive and enter verification code
+  
+  [ ] Step 7: Select Support Plan
+      - Choose "Basic Support - Free"
+  
+  [ ] Step 8: Complete Sign Up
+      - Wait for account activation (few minutes)
+
+POST-SETUP TASKS:
+  [ ] Log into AWS Console: https://console.aws.amazon.com/
+  [ ] Explore the console (don't click anything yet, just look)
+  [ ] Note down your Account ID (top right corner)
+
+------------------------------------------------------------------------------
+DAY 5: AWS Console Tour & Set Billing Alerts
+------------------------------------------------------------------------------
+HANDS-ON (90 mins):
+
+  [ ] Task 1: Secure Your Root Account
+      - Go to: IAM → Dashboard
+      - Click your account name (top right) → Security Credentials
+      - Enable MFA (Multi-Factor Authentication)
+      - Use: Google Authenticator or Authy app on your phone
+      - This protects your account from hackers!
+
+  [ ] Task 2: Set Up Billing Alert (VERY IMPORTANT!)
+      - Go to: Billing Dashboard (search "Billing")
+      - Click: Budgets → Create budget
+      - Choose: "Cost budget"
+      - Budget name: "My Monthly Budget"
+      - Enter amount: $5 (or $10)
+      - Email: Your email
+      - Save
+      - Now you'll get alerts before any charges!
+
+  [ ] Task 3: Explore AWS Console
+      - Notice the search bar at top (very useful!)
+      - Notice the region selector (top right)
+      - Click "Services" to see all services
+      - Find these services (don't click, just find):
+        * EC2
+        * S3
+        * IAM
+        * RDS
+        * Lambda
+
+  [ ] Task 4: Understand Regions & Availability Zones
+      - AWS has data centers worldwide
+      - Region = Geographic area (e.g., us-east-1, ap-south-1)
+      - Availability Zone (AZ) = Data center within a region
+      - Each region has 2-6 AZs
+      - Select a region close to you for practice
+
+WATCH:
+  [ ] YouTube: "AWS Console Walkthrough" - any recent video
+
+------------------------------------------------------------------------------
+DAY 6: AWS Global Infrastructure
+------------------------------------------------------------------------------
+THEORY (60 mins):
+  [ ] AWS Global Infrastructure Components:
+
+      ┌─────────────────────────────────────────────────────────┐
+      │               AWS GLOBAL INFRASTRUCTURE                 │
+      ├─────────────────────────────────────────────────────────┤
+      │                                                         │
+      │  REGIONS (30+)                                          │
+      │  └── Physical locations around the world                │
+      │      Examples: us-east-1, eu-west-1, ap-south-1        │
+      │                                                         │
+      │  AVAILABILITY ZONES (90+)                               │
+      │  └── Multiple data centers within a region             │
+      │      Each region has 2-6 AZs                           │
+      │      Connected with low-latency links                  │
+      │                                                         │
+      │  EDGE LOCATIONS (400+)                                  │
+      │  └── For content delivery (CloudFront CDN)             │
+      │      Located in major cities worldwide                 │
+      │      Caches content close to users                     │
+      │                                                         │
+      │  LOCAL ZONES                                            │
+      │  └── AWS infrastructure closer to users                │
+      │      For ultra-low latency applications                │
+      │                                                         │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] Why Multiple Regions?
+      - Low latency (serve users from nearby)
+      - Disaster recovery (if one region fails)
+      - Data compliance (keep data in specific country)
+
+  [ ] Region Selection Factors:
+      - Compliance requirements
+      - Proximity to customers
+      - Service availability
+      - Pricing (varies by region)
+
+HANDS-ON (30 mins):
+  [ ] In AWS Console:
+      - Click region dropdown (top right)
+      - See all available regions
+      - Switch between 2-3 regions
+      - Notice: Some services are global (IAM), some are regional (EC2)
+
+RESOURCES:
+  [ ] AWS Global Infrastructure Map:
+      https://aws.amazon.com/about-aws/global-infrastructure/
+
+------------------------------------------------------------------------------
+DAY 7: Week 1 Review & Quiz
+------------------------------------------------------------------------------
+REVIEW (60 mins):
+  [ ] Revise all concepts from Day 1-6
+  [ ] Complete these definitions in your own words:
+      - Cloud Computing: _______________
+      - IaaS: _______________
+      - PaaS: _______________
+      - SaaS: _______________
+      - Region: _______________
+      - Availability Zone: _______________
+
+QUIZ - Answer these:
+  1. What are 3 benefits of cloud computing?
+  2. If you want to just use email without managing anything, 
+     which model? (IaaS/PaaS/SaaS)
+  3. How many regions does AWS have approximately?
+  4. Why should you enable MFA on your AWS account?
+  5. What is the purpose of setting a billing alert?
+
+HANDS-ON VERIFICATION:
+  [ ] Log into AWS Console
+  [ ] Verify MFA is enabled
+  [ ] Verify billing alert is set
+  [ ] Switch between 3 different regions
+
+
+******************************************************************************
+                              WEEK 2: IAM (Identity & Access Management)
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 8: Introduction to IAM
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] What is IAM?
+      - Identity and Access Management
+      - Controls WHO can access WHAT in your AWS account
+      - FREE service (no charges)
+      - GLOBAL service (not region-specific)
+
+  [ ] Why IAM is Important?
+      - Security: Don't share root account
+      - Control: Give minimum permissions needed
+      - Audit: Track who did what
+
+  [ ] IAM Components:
+      
+      ┌─────────────────────────────────────────────────────────┐
+      │                      IAM COMPONENTS                     │
+      ├─────────────────────────────────────────────────────────┤
+      │                                                         │
+      │  USERS                                                  │
+      │  └── Individual people or services                     │
+      │      Example: john@company.com                         │
+      │                                                         │
+      │  GROUPS                                                 │
+      │  └── Collection of users                               │
+      │      Example: Developers, Testers, Admins              │
+      │                                                         │
+      │  ROLES                                                  │
+      │  └── Temporary permissions for services/users          │
+      │      Example: EC2 accessing S3                         │
+      │                                                         │
+      │  POLICIES                                               │
+      │  └── JSON documents defining permissions               │
+      │      Example: Allow read-only access to S3             │
+      │                                                         │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] Root User vs IAM User
+      ROOT USER:
+      - Created when you create AWS account
+      - Has FULL access to everything
+      - Should NOT be used for daily tasks
+      - Use only for: billing, account settings
+
+      IAM USER:
+      - Created inside AWS account
+      - Has only permissions you assign
+      - Use for daily work
+      - Each person should have their own IAM user
+
+WATCH (30 mins):
+  [ ] AWS Skill Builder: IAM Introduction (free course)
+  [ ] YouTube: "AWS IAM Tutorial" - TechWorld with Nana
+
+------------------------------------------------------------------------------
+DAY 9: IAM Users and Groups (HANDS-ON)
+------------------------------------------------------------------------------
+HANDS-ON (90 mins):
+
+  [ ] Task 1: Create Your First IAM User
+      - Go to: IAM → Users → Add users
+      - User name: "admin-user" (or your name)
+      - Select: "Provide user access to the AWS Management Console"
+      - Select: "I want to create an IAM user"
+      - Password: Custom password (save it!)
+      - Uncheck: "User must create new password"
+      - Click Next
+      
+  [ ] Task 2: Attach Permissions
+      - Select: "Attach policies directly"
+      - Search and select: "AdministratorAccess"
+      - Click Next → Create user
+      - SAVE the console sign-in URL!
+
+  [ ] Task 3: Test IAM User Login
+      - Copy the Console sign-in URL
+      - Open in incognito/private window
+      - Login with IAM user credentials
+      - You should see the AWS Console!
+
+  [ ] Task 4: Create IAM Group
+      - Go to: IAM → User groups → Create group
+      - Group name: "Developers"
+      - Attach policy: "AmazonEC2FullAccess"
+      - Create group
+
+  [ ] Task 5: Add User to Group
+      - Go to: User groups → Developers
+      - Click: Add users
+      - Select your IAM user
+      - Add to group
+
+BEST PRACTICE:
+  - From now on, ALWAYS use IAM user, NOT root user!
+  - Only use root user for billing and account-level changes
+
+------------------------------------------------------------------------------
+DAY 10: IAM Policies Deep Dive
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] What is an IAM Policy?
+      - JSON document that defines permissions
+      - Specifies: What actions are allowed/denied on which resources
+
+  [ ] Policy Structure:
+      ```json
+      {
+        "Version": "2012-10-17",
+        "Statement": [
+          {
+            "Effect": "Allow",          // Allow or Deny
+            "Action": "s3:GetObject",   // What action
+            "Resource": "arn:aws:s3:::my-bucket/*"  // On what
+          }
+        ]
+      }
+      ```
+
+  [ ] Policy Types:
+      - AWS Managed Policies: Pre-built by AWS (recommended to start)
+      - Customer Managed Policies: You create and manage
+      - Inline Policies: Embedded in user/group/role (not recommended)
+
+  [ ] Common AWS Managed Policies:
+      - AdministratorAccess: Full access to everything
+      - PowerUserAccess: Full access except IAM
+      - ReadOnlyAccess: View only, no changes
+      - AmazonS3FullAccess: Full access to S3
+      - AmazonEC2FullAccess: Full access to EC2
+
+HANDS-ON (45 mins):
+  [ ] Task 1: Explore Existing Policies
+      - Go to: IAM → Policies
+      - Search: "S3"
+      - Click on "AmazonS3ReadOnlyAccess"
+      - Click "JSON" tab to see the policy document
+      - Understand what it allows
+
+  [ ] Task 2: Create Custom Policy
+      - Go to: IAM → Policies → Create policy
+      - Click "JSON" tab
+      - Paste this policy:
+        ```json
+        {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Allow",
+              "Action": [
+                "s3:ListBucket",
+                "s3:GetObject"
+              ],
+              "Resource": "*"
+            }
+          ]
+        }
+        ```
+      - Click Next
+      - Policy name: "MyS3ReadPolicy"
+      - Create policy
+
+------------------------------------------------------------------------------
+DAY 11: IAM Roles
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] What is an IAM Role?
+      - An identity with permissions (like a user)
+      - BUT: Not associated with a specific person
+      - Can be "assumed" by anyone/anything that needs it
+      - Temporary credentials (auto-rotate)
+
+  [ ] When to Use Roles?
+      - EC2 instance needs to access S3
+      - Lambda function needs to access DynamoDB
+      - Cross-account access
+      - Federated users (SSO)
+
+  [ ] Role vs User:
+      USER                          ROLE
+      - For people                  - For services/applications
+      - Long-term credentials       - Temporary credentials
+      - Username/password           - Assumed when needed
+      - Belongs to one person       - Can be used by many
+
+HANDS-ON (45 mins):
+  [ ] Task 1: Create EC2 Role (for later use)
+      - Go to: IAM → Roles → Create role
+      - Trusted entity: AWS service
+      - Use case: EC2
+      - Click Next
+      - Attach policy: "AmazonS3ReadOnlyAccess"
+      - Click Next
+      - Role name: "EC2-S3-ReadOnly-Role"
+      - Create role
+
+  [ ] Task 2: Explore Role Details
+      - Click on the role you created
+      - Note the ARN (Amazon Resource Name)
+      - See the trust relationship (who can assume)
+      - See the permissions (what they can do)
+
+------------------------------------------------------------------------------
+DAY 12: IAM Best Practices & MFA
+------------------------------------------------------------------------------
+THEORY (30 mins):
+  [ ] IAM Security Best Practices:
+
+      ┌─────────────────────────────────────────────────────────┐
+      │              IAM SECURITY BEST PRACTICES                │
+      ├─────────────────────────────────────────────────────────┤
+      │                                                         │
+      │  1. Lock away root user access keys                    │
+      │  2. Create individual IAM users                        │
+      │  3. Use groups to assign permissions                   │
+      │  4. Grant least privilege (minimum needed)             │
+      │  5. Enable MFA for all users                           │
+      │  6. Use roles for applications on EC2                  │
+      │  7. Rotate credentials regularly                       │
+      │  8. Use policy conditions for extra security           │
+      │  9. Monitor with CloudTrail                            │
+      │ 10. Remove unused credentials                          │
+      │                                                         │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] Principle of Least Privilege:
+      - Give only the permissions needed
+      - Nothing more, nothing less
+      - Example: Developer needs EC2? Give EC2 access only, not S3
+
+HANDS-ON (60 mins):
+  [ ] Task 1: Enable MFA for IAM User
+      - Login as IAM user
+      - Go to: IAM → Users → Your user → Security credentials
+      - Click: Assign MFA device
+      - Choose: Authenticator app
+      - Scan QR code with Google Authenticator/Authy
+      - Enter two consecutive codes
+      - Verify MFA is enabled
+
+  [ ] Task 2: Review IAM Security Status
+      - Go to: IAM → Dashboard
+      - Check "Security recommendations"
+      - Address any warnings shown
+      - Aim for all green checkmarks!
+
+  [ ] Task 3: Create Password Policy
+      - Go to: IAM → Account settings
+      - Click: Edit password policy
+      - Set requirements:
+        * Minimum length: 12
+        * Require uppercase
+        * Require lowercase
+        * Require numbers
+        * Require symbols
+      - Save changes
+
+------------------------------------------------------------------------------
+DAY 13: IAM Practice & Review
+------------------------------------------------------------------------------
+HANDS-ON PRACTICE (90 mins):
+
+  [ ] Exercise 1: Create a Test User
+      - Create user: "test-developer"
+      - Attach policy: "AmazonEC2ReadOnlyAccess"
+      - Login as this user in incognito
+      - Try to view EC2 (should work)
+      - Try to view S3 (should fail - no permission)
+
+  [ ] Exercise 2: Group-Based Permissions
+      - Create group: "Testers"
+      - Attach policy: "AmazonS3ReadOnlyAccess"
+      - Add "test-developer" to this group
+      - Login as test-developer again
+      - Verify: EC2 read (yes) + S3 read (yes)
+
+  [ ] Exercise 3: Test Policy Denial
+      - Create inline policy for test-developer:
+        ```json
+        {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Effect": "Deny",
+              "Action": "ec2:*",
+              "Resource": "*"
+            }
+          ]
+        }
+        ```
+      - Login and verify: EC2 access denied (Deny overrides Allow!)
+
+  [ ] Clean Up:
+      - Delete test-developer user
+      - Delete Testers group
+      - Keep your admin-user and Developers group
+
+------------------------------------------------------------------------------
+DAY 14: Week 2 Review - IAM Complete
+------------------------------------------------------------------------------
+REVIEW QUIZ:
+  1. What's the difference between root user and IAM user?
+  2. When should you use an IAM Role instead of User?
+  3. What does "Principle of Least Privilege" mean?
+  4. What is MFA and why is it important?
+  5. Can a user belong to multiple groups?
+  6. If a policy has both Allow and Deny, which wins?
+
+KEY TAKEAWAYS:
+  [ ] Never use root user for daily tasks
+  [ ] One IAM user per person
+  [ ] Use groups to manage permissions
+  [ ] Use roles for services (EC2, Lambda)
+  [ ] Always enable MFA
+  [ ] Least privilege = minimum required permissions
+
+VERIFY YOUR SETUP:
+  [ ] Root user has MFA enabled
+  [ ] IAM admin user created with MFA
+  [ ] Password policy configured
+  [ ] You're logging in as IAM user, not root
+
+
+******************************************************************************
+                              WEEK 3: EC2 (Elastic Compute Cloud)
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 15: Introduction to EC2
+------------------------------------------------------------------------------
+THEORY (60 mins):
+  [ ] What is EC2?
+      - Elastic Compute Cloud
+      - Virtual servers in the cloud
+      - You rent computing capacity
+      - Pay only for what you use
+
+  [ ] EC2 Use Cases:
+      - Web servers
+      - Application servers
+      - Database servers
+      - Development environments
+      - Batch processing
+
+  [ ] EC2 Instance Components:
+      
+      ┌─────────────────────────────────────────────────────────┐
+      │                    EC2 INSTANCE                         │
+      ├─────────────────────────────────────────────────────────┤
+      │                                                         │
+      │  INSTANCE TYPE                                          │
+      │  └── CPU, Memory, Network capacity                     │
+      │      Example: t2.micro (1 CPU, 1 GB RAM)               │
+      │                                                         │
+      │  AMI (Amazon Machine Image)                             │
+      │  └── Operating system template                         │
+      │      Example: Amazon Linux, Ubuntu, Windows            │
+      │                                                         │
+      │  STORAGE (EBS)                                          │
+      │  └── Hard drive for the instance                       │
+      │      Example: 30 GB SSD                                │
+      │                                                         │
+      │  SECURITY GROUP                                         │
+      │  └── Virtual firewall rules                            │
+      │      Example: Allow SSH (port 22)                      │
+      │                                                         │
+      │  KEY PAIR                                               │
+      │  └── SSH key for secure login                          │
+      │      You download private key (.pem file)              │
+      │                                                         │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] EC2 Pricing Models:
+      - On-Demand: Pay by hour/second, no commitment
+      - Reserved: 1-3 year commitment, up to 72% discount
+      - Spot: Bid for unused capacity, up to 90% discount
+      - Dedicated: Physical server just for you
+
+WATCH:
+  [ ] YouTube: "AWS EC2 Tutorial For Beginners"
+  [ ] AWS: EC2 Getting Started video
+
+------------------------------------------------------------------------------
+DAY 16: Launch Your First EC2 Instance (HANDS-ON!)
+------------------------------------------------------------------------------
+HANDS-ON (90 mins):
+
+  [ ] Step 1: Navigate to EC2
+      - Login to AWS Console (as IAM user)
+      - Search "EC2" and click on it
+      - Click "Launch instance"
+
+  [ ] Step 2: Configure Instance
+      - Name: "MyFirstWebServer"
+      
+      - AMI: Amazon Linux 2023 (Free tier eligible)
+      
+      - Instance type: t2.micro (Free tier eligible)
+      
+      - Key pair: 
+        * Click "Create new key pair"
+        * Name: "my-first-key"
+        * Type: RSA
+        * Format: .pem (for Mac/Linux) or .ppk (for Windows PuTTY)
+        * Download and SAVE SAFELY!
+      
+      - Network settings:
+        * Allow SSH traffic from: My IP (recommended)
+        * Allow HTTP traffic from internet: Check this
+      
+      - Storage: 8 GB (default, free tier)
+
+  [ ] Step 3: Launch Instance
+      - Review settings
+      - Click "Launch instance"
+      - Wait for "Running" state (1-2 minutes)
+
+  [ ] Step 4: View Your Instance
+      - Go to EC2 → Instances
+      - See your instance details:
+        * Instance ID
+        * Public IP address
+        * State: Running
+        * Instance type
+
+  [ ] Step 5: Test Connection (Important!)
+      - Copy the Public IP address
+      - Open browser and go to: http://<your-public-ip>
+      - You should see "connection refused" (no web server yet)
+      - This confirms the instance is reachable!
+
+NOTES:
+  - Keep the .pem key file safe - you can't download it again!
+  - Note your Public IP - it changes when you stop/start instance
+
+------------------------------------------------------------------------------
+DAY 17: Connect to EC2 via SSH
+------------------------------------------------------------------------------
+THEORY (15 mins):
+  [ ] What is SSH?
+      - Secure Shell
+      - Way to connect to remote servers securely
+      - Uses key pair authentication
+      - Default port: 22
+
+HANDS-ON - Windows Users (60 mins):
+  [ ] Option 1: EC2 Instance Connect (Easiest!)
+      - Go to: EC2 → Instances
+      - Select your instance
+      - Click "Connect"
+      - Choose "EC2 Instance Connect"
+      - Click "Connect"
+      - Browser terminal opens!
+
+  [ ] Option 2: Using PowerShell
+      - Open PowerShell
+      - Navigate to folder with .pem file
+      - Run:
+        ```
+        ssh -i "my-first-key.pem" ec2-user@<your-public-ip>
+        ```
+      - Type "yes" when prompted
+      - You're in!
+
+  [ ] Option 3: Using PuTTY
+      - Download PuTTY and PuTTYgen
+      - Convert .pem to .ppk using PuTTYgen
+      - Open PuTTY
+      - Host: ec2-user@<your-public-ip>
+      - Connection → SSH → Auth → Browse → Select .ppk
+      - Click "Open"
+
+HANDS-ON - Mac/Linux Users (45 mins):
+  [ ] Using Terminal
+      - Open Terminal
+      - Navigate to folder with .pem file
+      - Set permissions:
+        ```
+        chmod 400 my-first-key.pem
+        ```
+      - Connect:
+        ```
+        ssh -i "my-first-key.pem" ec2-user@<your-public-ip>
+        ```
+      - You're in!
+
+ONCE CONNECTED, TRY THESE COMMANDS:
+  ```bash
+  # Check OS info
+  cat /etc/os-release
+  
+  # Check disk space
+  df -h
+  
+  # Check memory
+  free -m
+  
+  # Check who you are
+  whoami
+  
+  # Update system
+  sudo yum update -y
+  ```
+
+------------------------------------------------------------------------------
+DAY 18: Install Web Server on EC2
+------------------------------------------------------------------------------
+HANDS-ON (60 mins):
+
+  [ ] Task 1: Connect to your EC2 instance (using any method from Day 17)
+
+  [ ] Task 2: Install Apache Web Server
+      ```bash
+      # Update packages
+      sudo yum update -y
+      
+      # Install Apache
+      sudo yum install httpd -y
+      
+      # Start Apache
+      sudo systemctl start httpd
+      
+      # Enable auto-start on boot
+      sudo systemctl enable httpd
+      
+      # Check status
+      sudo systemctl status httpd
+      ```
+
+  [ ] Task 3: Create a Simple Web Page
+      ```bash
+      # Create HTML file
+      sudo nano /var/www/html/index.html
+      ```
+      
+      Add this content:
+      ```html
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <title>My First AWS Web Server</title>
+      </head>
+      <body>
+          <h1>Hello from AWS EC2!</h1>
+          <p>This is my first web server running on Amazon EC2.</p>
+          <p>Instance Region: Check your console!</p>
+          <p>Date: Add today's date here</p>
+      </body>
+      </html>
+      ```
+      
+      Save: Ctrl+X, Y, Enter
+
+  [ ] Task 4: Test Your Web Server
+      - Open browser
+      - Go to: http://<your-public-ip>
+      - You should see your webpage!
+      - Congratulations! You've deployed a web server! 🎉
+
+  [ ] Task 5: Customize Your Page
+      - Edit the HTML file
+      - Add your name, current date
+      - Refresh browser to see changes
+
+------------------------------------------------------------------------------
+DAY 19: Security Groups (EC2 Firewall)
+------------------------------------------------------------------------------
+THEORY (30 mins):
+  [ ] What is a Security Group?
+      - Virtual firewall for EC2 instances
+      - Controls inbound and outbound traffic
+      - Rules based on:
+        * Protocol (TCP, UDP, ICMP)
+        * Port number (22, 80, 443, etc.)
+        * Source/Destination (IP address or another security group)
+
+  [ ] Security Group Rules:
+      INBOUND (traffic coming IN):
+      - SSH (22): For remote access
+      - HTTP (80): For web traffic
+      - HTTPS (443): For secure web traffic
+      - Custom: Your application ports
+
+      OUTBOUND (traffic going OUT):
+      - By default: All traffic allowed
+      - Can restrict if needed
+
+  [ ] Security Group Behavior:
+      - Stateful: If you allow inbound, response is automatically allowed
+      - No "Deny" rules - only "Allow"
+      - All inbound blocked by default
+      - All outbound allowed by default
+      - Changes take effect immediately
+
+HANDS-ON (60 mins):
+  [ ] Task 1: View Current Security Group
+      - Go to: EC2 → Instances → Select instance
+      - Click "Security" tab
+      - Click on security group link
+      - Review inbound/outbound rules
+
+  [ ] Task 2: Add New Rule
+      - Click "Edit inbound rules"
+      - Add rule:
+        * Type: Custom TCP
+        * Port: 8080
+        * Source: My IP
+        * Description: "Custom app port"
+      - Save rules
+
+  [ ] Task 3: Test Security Group (Block SSH)
+      - Edit inbound rules
+      - Remove SSH rule (port 22)
+      - Save
+      - Try to SSH - it should fail!
+      - Add SSH rule back
+      - SSH should work again
+
+  [ ] Task 4: Create New Security Group
+      - Go to: EC2 → Security Groups → Create security group
+      - Name: "WebServer-SG"
+      - Description: "Security group for web servers"
+      - VPC: Default
+      - Inbound rules:
+        * SSH (22) from My IP
+        * HTTP (80) from Anywhere
+        * HTTPS (443) from Anywhere
+      - Create
+
+------------------------------------------------------------------------------
+DAY 20: EC2 Instance Types & AMIs
+------------------------------------------------------------------------------
+THEORY (60 mins):
+  [ ] Instance Types - Named by: [Family][Generation][Size]
+      Example: t2.micro, m5.large, c6g.xlarge
+
+      FAMILIES:
+      ┌──────────────────────────────────────────────────────┐
+      │  Family  │  Optimized For           │ Use Case       │
+      ├──────────────────────────────────────────────────────┤
+      │  T       │  Burstable (general)     │ Dev, small web │
+      │  M       │  General purpose         │ Most apps      │
+      │  C       │  Compute                 │ CPU intensive  │
+      │  R       │  Memory                  │ Databases      │
+      │  I       │  Storage                 │ Big data       │
+      │  G/P     │  GPU                     │ ML, graphics   │
+      └──────────────────────────────────────────────────────┘
+
+      SIZES:
+      nano < micro < small < medium < large < xlarge < 2xlarge...
+
+      Free Tier: t2.micro or t3.micro
+
+  [ ] Amazon Machine Images (AMIs):
+      - Template containing: OS, software, configurations
+      - Types:
+        * AWS provided (Amazon Linux, Ubuntu, Windows)
+        * Marketplace (pre-configured apps)
+        * Community (shared by others)
+        * Custom (you create from your instance)
+
+HANDS-ON (30 mins):
+  [ ] Task 1: Explore Instance Types
+      - Go to: EC2 → Instance Types (left menu)
+      - Filter by: Free tier eligible
+      - Compare t2.micro and t3.micro
+      - Note CPU, memory, network performance
+
+  [ ] Task 2: Explore AMIs
+      - Go to: EC2 → AMIs (left menu)
+      - Change to "Public images"
+      - Search "Ubuntu"
+      - See available Ubuntu versions
+
+  [ ] Task 3: Create Custom AMI (from your instance)
+      - Go to: EC2 → Instances
+      - Select your running instance
+      - Actions → Image and templates → Create image
+      - Name: "MyWebServer-AMI"
+      - Create image
+      - Go to: AMIs → See your custom AMI
+
+------------------------------------------------------------------------------
+DAY 21: EC2 Review & Clean Up
+------------------------------------------------------------------------------
+REVIEW (45 mins):
+  [ ] EC2 Key Concepts Quiz:
+      1. What is an AMI?
+      2. What is a Security Group?
+      3. What instance type is free tier eligible?
+      4. What is a key pair used for?
+      5. What port is used for SSH?
+      6. What port is used for HTTP?
+
+  [ ] Hands-on Verification:
+      - Your EC2 instance is running
+      - Web server shows your custom page
+      - You can SSH into the instance
+      - Security group has correct rules
+
+COST MANAGEMENT (30 mins):
+  [ ] Task: Stop Your Instance (Save Money!)
+      - Go to: EC2 → Instances
+      - Select your instance
+      - Instance state → Stop instance
+      - Wait for "Stopped" state
+      - NOTE: Stopped instance = No compute charges
+      - NOTE: EBS storage still costs (minimal in free tier)
+
+  [ ] Understand States:
+      - Running: Instance is on, charges apply
+      - Stopped: Instance is off, no compute charges
+      - Terminated: Instance is deleted permanently
+
+  [ ] When to Stop vs Terminate:
+      - Stop: Want to use later (like shutting laptop)
+      - Terminate: Don't need anymore (deletes everything)
+
+WEEK 3 SUMMARY:
+  ✓ Launched EC2 instance
+  ✓ Connected via SSH
+  ✓ Installed web server
+  ✓ Configured Security Groups
+  ✓ Understood instance types
+  ✓ Created custom AMI
+
+
+******************************************************************************
+                              WEEK 4: S3 (Simple Storage Service)
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 22: Introduction to S3
+------------------------------------------------------------------------------
+THEORY (60 mins):
+  [ ] What is S3?
+      - Simple Storage Service
+      - Object storage (not file system, not block storage)
+      - Store unlimited data
+      - Highly durable (99.999999999% - 11 nines!)
+      - Access from anywhere via URL
+
+  [ ] S3 Concepts:
+      
+      ┌─────────────────────────────────────────────────────────┐
+      │                     S3 STRUCTURE                        │
+      ├─────────────────────────────────────────────────────────┤
+      │                                                         │
+      │  BUCKET                                                 │
+      │  └── Container for objects                             │
+      │      - Globally unique name                            │
+      │      - Created in a specific region                    │
+      │      - Example: my-company-photos-2024                 │
+      │                                                         │
+      │  OBJECT                                                 │
+      │  └── File + metadata                                   │
+      │      - Key (name): folder/subfolder/file.txt           │
+      │      - Value (data): actual file content               │
+      │      - Metadata: content-type, modified date           │
+      │      - Max size: 5 TB per object                       │
+      │                                                         │
+      │  KEY                                                    │
+      │  └── Unique identifier for object in bucket            │
+      │      - Full path: photos/2024/january/img001.jpg       │
+      │                                                         │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] S3 Use Cases:
+      - Backup and restore
+      - Static website hosting
+      - Data archiving
+      - Application data storage
+      - Media hosting (images, videos)
+      - Data lakes
+
+  [ ] S3 Pricing:
+      - Storage: per GB per month
+      - Requests: per 1000 requests
+      - Data transfer: out to internet
+      - Free tier: 5 GB storage, 20,000 GET, 2,000 PUT
+
+WATCH:
+  [ ] YouTube: "AWS S3 Tutorial For Beginners"
+
+------------------------------------------------------------------------------
+DAY 23: Create S3 Bucket & Upload Files
+------------------------------------------------------------------------------
+HANDS-ON (90 mins):
+
+  [ ] Task 1: Create Your First Bucket
+      - Go to: S3 → Create bucket
+      - Bucket name: choose unique name (e.g., "yourname-learning-bucket-2024")
+      - Region: Select your preferred region
+      - Object Ownership: ACLs disabled (recommended)
+      - Block Public Access: Keep all checked (security!)
+      - Versioning: Disable for now
+      - Encryption: SSE-S3 (default)
+      - Create bucket
+
+  [ ] Task 2: Upload Files
+      - Click on your bucket
+      - Click "Upload"
+      - Add files: Upload 2-3 image files from your computer
+      - Click "Upload"
+      - View the uploaded files
+
+  [ ] Task 3: Explore Object Properties
+      - Click on one uploaded file
+      - View:
+        * Object URL (can't access - blocked)
+        * Size
+        * Last modified
+        * Storage class
+        * Metadata
+
+  [ ] Task 4: Create Folders (Prefixes)
+      - Click "Create folder"
+      - Name: "images"
+      - Create
+      - Upload files into this folder
+      - Note: S3 doesn't have real folders, just key prefixes!
+
+  [ ] Task 5: Download & Delete
+      - Select a file
+      - Click "Download" → File downloads
+      - Click "Delete" → Confirm → File deleted
+
+------------------------------------------------------------------------------
+DAY 24: S3 Storage Classes
+------------------------------------------------------------------------------
+THEORY (45 mins):
+  [ ] S3 Storage Classes:
+
+      ┌──────────────────────────────────────────────────────────┐
+      │              S3 STORAGE CLASSES                          │
+      ├──────────────────────────────────────────────────────────┤
+      │                                                          │
+      │  S3 STANDARD                                             │
+      │  └── Frequently accessed data                           │
+      │      99.99% availability, 11 9s durability              │
+      │      Highest cost                                       │
+      │                                                          │
+      │  S3 STANDARD-IA (Infrequent Access)                     │
+      │  └── Less frequently accessed                           │
+      │      Lower storage cost, retrieval fee                  │
+      │      Good for backups                                   │
+      │                                                          │
+      │  S3 ONE ZONE-IA                                          │
+      │  └── Single AZ, less durable                            │
+      │      Lowest IA cost                                     │
+      │      Good for reproducible data                         │
+      │                                                          │
+      │  S3 GLACIER INSTANT RETRIEVAL                           │
+      │  └── Archive with millisecond access                    │
+      │      Quarterly access pattern                           │
+      │                                                          │
+      │  S3 GLACIER FLEXIBLE RETRIEVAL                          │
+      │  └── Archive, minutes to hours retrieval                │
+      │      Annual access pattern                              │
+      │                                                          │
+      │  S3 GLACIER DEEP ARCHIVE                                │
+      │  └── Cheapest, 12-48 hour retrieval                     │
+      │      7-10 year retention                                │
+      │                                                          │
+      │  S3 INTELLIGENT-TIERING                                  │
+      │  └── Auto-moves between tiers                           │
+      │      Best when access patterns unknown                  │
+      │                                                          │
+      └──────────────────────────────────────────────────────────┘
+
+  [ ] Cost Comparison (approximate):
+      Standard          > Standard-IA > One Zone-IA > Glacier > Deep Archive
+      (Most expensive)                                         (Cheapest)
+
+HANDS-ON (45 mins):
+  [ ] Task 1: Change Storage Class
+      - Go to your bucket
+      - Select a file
+      - Actions → Edit storage class
+      - Change to "S3 Standard-IA"
+      - Save
+
+  [ ] Task 2: Create Lifecycle Rule
+      - Go to bucket → Management tab
+      - Create lifecycle rule
+      - Rule name: "MoveToGlacier"
+      - Apply to all objects
+      - Transition actions:
+        * Move to Glacier after 30 days
+      - Expiration: Delete after 365 days
+      - Create rule
+
+------------------------------------------------------------------------------
+DAY 25: S3 Static Website Hosting
+------------------------------------------------------------------------------
+HANDS-ON (90 mins):
+
+  [ ] Task 1: Create Website Bucket
+      - Create new bucket: "yourname-website-2024"
+      - Uncheck "Block all public access" (for website)
+      - Acknowledge the warning
+      - Create bucket
+
+  [ ] Task 2: Enable Static Website Hosting
+      - Go to bucket → Properties
+      - Scroll to "Static website hosting"
+      - Click Edit
+      - Enable
+      - Index document: index.html
+      - Error document: error.html
+      - Save changes
+      - Note the "Bucket website endpoint" URL
+
+  [ ] Task 3: Add Bucket Policy (Make Public)
+      - Go to bucket → Permissions
+      - Bucket policy → Edit
+      - Paste this policy (replace YOUR-BUCKET-NAME):
+        ```json
+        {
+          "Version": "2012-10-17",
+          "Statement": [
+            {
+              "Sid": "PublicReadGetObject",
+              "Effect": "Allow",
+              "Principal": "*",
+              "Action": "s3:GetObject",
+              "Resource": "arn:aws:s3:::YOUR-BUCKET-NAME/*"
+            }
+          ]
+        }
+        ```
+      - Save changes
+
+  [ ] Task 4: Upload Website Files
+      - Create index.html on your computer:
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>My S3 Website</title>
+            <style>
+                body { font-family: Arial; padding: 40px; }
+                h1 { color: #ff9900; }
+            </style>
+        </head>
+        <body>
+            <h1>Welcome to My S3 Website!</h1>
+            <p>This website is hosted on Amazon S3.</p>
+            <p>It's serverless, scalable, and cost-effective!</p>
+        </body>
+        </html>
+        ```
+      
+      - Create error.html:
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head><title>Error</title></head>
+        <body>
+            <h1>Oops! Page not found.</h1>
+            <p>The page you're looking for doesn't exist.</p>
+            <a href="index.html">Go Home</a>
+        </body>
+        </html>
+        ```
+      
+      - Upload both files to bucket
+
+  [ ] Task 5: Test Your Website
+      - Go to Properties → Static website hosting
+      - Click the endpoint URL
+      - Your website is live! 🎉
+      - Try a non-existent page to see error.html
+
+------------------------------------------------------------------------------
+DAY 26: S3 Versioning & Security
+------------------------------------------------------------------------------
+THEORY (30 mins):
+  [ ] S3 Versioning:
+      - Keep multiple versions of an object
+      - Protect against accidental deletion
+      - Easy rollback
+      - Once enabled, can only suspend (not disable)
+
+  [ ] S3 Security:
+      - Bucket Policies: JSON policies at bucket level
+      - ACLs: Object-level permissions (legacy)
+      - Encryption:
+        * SSE-S3: AWS managed keys
+        * SSE-KMS: AWS KMS managed keys
+        * SSE-C: Customer provided keys
+      - Block Public Access: Account/bucket level setting
+
+HANDS-ON (60 mins):
+  [ ] Task 1: Enable Versioning
+      - Go to your learning bucket
+      - Properties → Bucket Versioning → Edit
+      - Enable versioning
+      - Save
+
+  [ ] Task 2: Test Versioning
+      - Upload a file (e.g., notes.txt with "Version 1")
+      - Upload same file again with different content ("Version 2")
+      - Click "Show versions" toggle
+      - See both versions!
+      - Download old version
+      - Delete latest version (becomes delete marker)
+      - Restore by deleting the delete marker
+
+  [ ] Task 3: Enable Default Encryption
+      - Go to bucket → Properties
+      - Default encryption → Edit
+      - Server-side encryption: Enable
+      - Encryption type: SSE-S3
+      - Save
+
+  [ ] Task 4: Review Bucket Policy
+      - Go to bucket → Permissions
+      - Review bucket policy
+      - Note: No policy = private by default
+
+------------------------------------------------------------------------------
+DAY 27: S3 Review & Practice
+------------------------------------------------------------------------------
+REVIEW QUIZ:
+  1. What is the maximum size of a single S3 object?
+  2. Are S3 bucket names globally unique or regionally unique?
+  3. Which storage class is cheapest for rarely accessed data?
+  4. What file is needed for static website hosting index page?
+  5. What does versioning protect against?
+  6. What is the durability of S3 (how many 9s)?
+
+HANDS-ON PRACTICE (60 mins):
+  [ ] Create a complete static website:
+      - New bucket with proper naming
+      - Enable static hosting
+      - Create 3-page website (index, about, contact)
+      - Add images
+      - Test all pages work
+      - Share URL with a friend!
+
+  [ ] Clean Up:
+      - Delete website bucket contents
+      - Delete bucket
+      - Keep learning bucket for future
+
+------------------------------------------------------------------------------
+DAY 28: Week 4 Review - S3 Complete
+------------------------------------------------------------------------------
+SUMMARY:
+  ✓ Created S3 buckets
+  ✓ Uploaded and managed objects
+  ✓ Understood storage classes
+  ✓ Hosted static website
+  ✓ Configured versioning
+  ✓ Applied bucket policies
+
+MONTH 1 COMPLETE! 🎉
+  You now understand:
+  - Cloud computing fundamentals
+  - AWS Global Infrastructure
+  - IAM (Users, Groups, Roles, Policies)
+  - EC2 (Virtual servers)
+  - S3 (Object storage)
+
+
+================================================================================
+                    MONTH 2: NETWORKING, DATABASES & MORE SERVICES
+================================================================================
+
+******************************************************************************
+                              WEEK 5: VPC (Virtual Private Cloud)
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 29: Introduction to VPC
+------------------------------------------------------------------------------
+THEORY (60 mins):
+  [ ] What is VPC?
+      - Virtual Private Cloud
+      - Your own isolated network in AWS
+      - You control: IP addresses, subnets, routing, gateways
+      - Foundation for most AWS services
+
+  [ ] VPC Components:
+      
+      ┌─────────────────────────────────────────────────────────┐
+      │                        VPC                              │
+      │                   (10.0.0.0/16)                         │
+      │  ┌─────────────────────────────────────────────────┐   │
+      │  │              PUBLIC SUBNET                       │   │
+      │  │              (10.0.1.0/24)                       │   │
+      │  │   ┌──────────┐    ┌──────────┐                  │   │
+      │  │   │   EC2    │    │   EC2    │                  │   │
+      │  │   │  (Web)   │    │  (Web)   │                  │   │
+      │  │   └──────────┘    └──────────┘                  │   │
+      │  └───────────────────────┬─────────────────────────┘   │
+      │                          │ Internet Gateway            │
+      │  ┌───────────────────────┴─────────────────────────┐   │
+      │  │              PRIVATE SUBNET                      │   │
+      │  │              (10.0.2.0/24)                       │   │
+      │  │   ┌──────────┐    ┌──────────┐                  │   │
+      │  │   │   EC2    │    │   RDS    │                  │   │
+      │  │   │  (App)   │    │   (DB)   │                  │   │
+      │  │   └──────────┘    └──────────┘                  │   │
+      │  └─────────────────────────────────────────────────┘   │
+      └─────────────────────────────────────────────────────────┘
+
+  [ ] Key Concepts:
+      - CIDR Block: IP address range (e.g., 10.0.0.0/16 = 65,536 IPs)
+      - Subnet: Segment of VPC (e.g., 10.0.1.0/24 = 256 IPs)
+      - Internet Gateway: Connects VPC to internet
+      - NAT Gateway: Allows private subnet internet access (outbound only)
+      - Route Table: Rules for traffic routing
+
+WATCH:
+  [ ] YouTube: "AWS VPC Tutorial" - any recent video
+
+------------------------------------------------------------------------------
+DAY 30-31: Create Custom VPC (HANDS-ON)
+------------------------------------------------------------------------------
+HANDS-ON (Day 30 - 60 mins):
+
+  [ ] Task 1: Create VPC
+      - Go to: VPC → Your VPCs → Create VPC
+      - Select: VPC only
+      - Name: "MyLearningVPC"
+      - IPv4 CIDR: 10.0.0.0/16
+      - Create VPC
+
+  [ ] Task 2: Create Internet Gateway
+      - Go to: Internet Gateways → Create
+      - Name: "MyLearningIGW"
+      - Create
+      - Select → Actions → Attach to VPC
+      - Select your VPC
+
+  [ ] Task 3: Create Subnets
+      Public Subnet:
+      - Go to: Subnets → Create subnet
+      - VPC: MyLearningVPC
+      - Subnet name: "PublicSubnet-1"
+      - AZ: Choose one (e.g., us-east-1a)
+      - CIDR: 10.0.1.0/24
+      - Create
+
+      Private Subnet:
+      - Create another subnet
+      - Name: "PrivateSubnet-1"
+      - AZ: Same as above
+      - CIDR: 10.0.2.0/24
+      - Create
+
+HANDS-ON (Day 31 - 60 mins):
+
+  [ ] Task 4: Create Route Tables
+      Public Route Table:
+      - Go to: Route Tables → Create
+      - Name: "PublicRouteTable"
+      - VPC: MyLearningVPC
+      - Create
+      - Select → Routes → Edit routes
+      - Add route: 0.0.0.0/0 → Internet Gateway
+      - Save
+      - Subnet associations → Edit → Associate PublicSubnet-1
+
+      Private Route Table:
+      - Create another route table
+      - Name: "PrivateRouteTable"
+      - Associate PrivateSubnet-1
+      - (No internet route for now)
+
+  [ ] Task 5: Enable Auto-assign Public IP
+      - Go to: Subnets → PublicSubnet-1
+      - Actions → Edit subnet settings
+      - Enable "Auto-assign public IPv4 address"
+      - Save
+
+  [ ] Task 6: Test - Launch EC2 in Custom VPC
+      - Launch new EC2 instance
+      - Network: MyLearningVPC
+      - Subnet: PublicSubnet-1
+      - Auto-assign public IP: Enable
+      - Security group: Allow SSH
+      - Launch and connect!
+
+------------------------------------------------------------------------------
+DAY 32-33: NAT Gateway & VPC Security
+------------------------------------------------------------------------------
+DAY 32 - NAT Gateway (60 mins):
+
+  [ ] Theory: NAT Gateway
+      - Allows private subnet instances to access internet
+      - But internet cannot initiate connection to them
+      - Use case: Private server needs to download updates
+
+  [ ] Create NAT Gateway:
+      - Go to: NAT Gateways → Create
+      - Name: "MyNATGateway"
+      - Subnet: PublicSubnet-1 (must be public!)
+      - Allocate Elastic IP
+      - Create
+
+  [ ] Update Private Route Table:
+      - Go to: Route Tables → PrivateRouteTable
+      - Edit routes
+      - Add: 0.0.0.0/0 → NAT Gateway
+      - Save
+
+  [ ] Test: Launch EC2 in private subnet, verify internet access (outbound)
+
+DAY 33 - VPC Security (60 mins):
+
+  [ ] Network ACLs (NACLs):
+      - Firewall at subnet level
+      - Stateless (must allow both inbound AND outbound)
+      - Rules evaluated in order (lowest number first)
+      - Default NACL allows all traffic
+
+  [ ] Security Groups vs NACLs:
+      ┌────────────────┬──────────────────┬──────────────────┐
+      │                │  Security Group  │      NACL        │
+      ├────────────────┼──────────────────┼──────────────────┤
+      │ Level          │ Instance         │ Subnet           │
+      │ State          │ Stateful         │ Stateless        │
+      │ Rules          │ Allow only       │ Allow and Deny   │
+      │ Evaluation     │ All rules        │ In order         │
+      │ Default        │ Deny all inbound │ Allow all        │
+      └────────────────┴──────────────────┴──────────────────┘
+
+  [ ] Hands-on: View default NACL, understand rules
+
+------------------------------------------------------------------------------
+DAY 34-35: VPC Review & Practice
+------------------------------------------------------------------------------
+  [ ] Build complete VPC architecture with:
+      - 2 public subnets (different AZs)
+      - 2 private subnets (different AZs)
+      - Internet Gateway
+      - NAT Gateway
+      - Proper route tables
+      - Launch instances in each subnet type
+      - Test connectivity
+
+  [ ] Clean up: Delete NAT Gateway first (costs money!)
+
+
+******************************************************************************
+                              WEEK 6: RDS (Relational Database Service)
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 36-37: Introduction to RDS
+------------------------------------------------------------------------------
+THEORY:
+  [ ] What is RDS?
+      - Managed relational database service
+      - AWS handles: patching, backups, scaling, high availability
+      - You focus on: your data and application
+
+  [ ] Supported Engines:
+      - Amazon Aurora (AWS proprietary)
+      - MySQL
+      - PostgreSQL
+      - MariaDB
+      - Oracle
+      - SQL Server
+
+  [ ] RDS Features:
+      - Automated backups
+      - Multi-AZ for high availability
+      - Read Replicas for scaling
+      - Encryption at rest and in transit
+
+HANDS-ON:
+  [ ] Create MySQL RDS Instance (Free Tier):
+      - Go to: RDS → Create database
+      - Engine: MySQL
+      - Template: Free tier
+      - DB instance identifier: "mylearningdb"
+      - Master username: admin
+      - Master password: (set and save!)
+      - Instance class: db.t3.micro
+      - Storage: 20 GB
+      - VPC: Default or your custom VPC
+      - Public access: No (best practice)
+      - Create database
+
+  [ ] Wait for database to be "Available" (5-10 mins)
+
+------------------------------------------------------------------------------
+DAY 38-40: RDS Configuration & Connection
+------------------------------------------------------------------------------
+  [ ] Configure Security Group for RDS
+  [ ] Connect to RDS from EC2 instance
+  [ ] Create database and tables using MySQL client
+  [ ] Enable automated backups
+  [ ] Take manual snapshot
+  [ ] Understand Multi-AZ deployment
+
+------------------------------------------------------------------------------
+DAY 41-42: Week 6 Review
+------------------------------------------------------------------------------
+  [ ] RDS concepts review
+  [ ] Practice creating and managing databases
+  [ ] Clean up: Delete RDS instance (to avoid charges)
+
+
+******************************************************************************
+                              WEEK 7: ADDITIONAL CORE SERVICES
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 43-45: Route 53 (DNS Service)
+------------------------------------------------------------------------------
+  [ ] What is DNS?
+  [ ] Route 53 concepts: Hosted zones, Record types
+  [ ] Create hosted zone (if you have domain)
+  [ ] Record types: A, CNAME, MX, TXT
+  [ ] Routing policies: Simple, Weighted, Latency, Failover
+
+------------------------------------------------------------------------------
+DAY 46-48: CloudWatch (Monitoring)
+------------------------------------------------------------------------------
+  [ ] What is CloudWatch?
+  [ ] Metrics, Logs, Alarms, Dashboards
+  [ ] Create EC2 monitoring alarm
+  [ ] View logs from EC2
+  [ ] Create custom dashboard
+
+------------------------------------------------------------------------------
+DAY 49: Week 7 Review
+------------------------------------------------------------------------------
+  [ ] Review Route 53 and CloudWatch
+  [ ] Practice creating alarms and dashboards
+
+
+******************************************************************************
+                              WEEK 8: SERVERLESS & REVIEW
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 50-52: Lambda (Serverless Computing)
+------------------------------------------------------------------------------
+  [ ] What is Serverless?
+  [ ] AWS Lambda introduction
+  [ ] Create your first Lambda function
+  [ ] Lambda triggers (API Gateway, S3, etc.)
+  [ ] Pricing model (pay per invocation)
+
+------------------------------------------------------------------------------
+DAY 53-54: Additional Services Overview
+------------------------------------------------------------------------------
+  [ ] ELB (Elastic Load Balancing)
+  [ ] Auto Scaling
+  [ ] SNS (Simple Notification Service)
+  [ ] SQS (Simple Queue Service)
+
+------------------------------------------------------------------------------
+DAY 55-56: Month 2 Review
+------------------------------------------------------------------------------
+  [ ] Review all services learned
+  [ ] Practice hands-on labs
+  [ ] Clean up unused resources
+
+
+================================================================================
+                    MONTH 3: CERTIFICATION PREPARATION
+================================================================================
+
+******************************************************************************
+                    WEEK 9-10: CLOUD PRACTITIONER EXAM PREP
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 57-63: Exam Domains Deep Dive
+------------------------------------------------------------------------------
+  [ ] Domain 1: Cloud Concepts (24%)
+      - Cloud benefits
+      - AWS Cloud economics
+      - Cloud architecture principles
+
+  [ ] Domain 2: Security & Compliance (30%)
+      - Shared Responsibility Model
+      - IAM deep dive
+      - Security services (WAF, Shield, etc.)
+
+  [ ] Domain 3: Cloud Technology (34%)
+      - All services we covered
+      - Additional services overview
+      - AWS global infrastructure
+
+  [ ] Domain 4: Billing & Pricing (12%)
+      - Pricing models
+      - Billing dashboard
+      - Cost management tools
+
+------------------------------------------------------------------------------
+DAY 64-70: Practice Exams
+------------------------------------------------------------------------------
+  [ ] AWS Skill Builder practice exam (FREE)
+  [ ] Tutorials Dojo practice exams
+  [ ] Review wrong answers
+  [ ] Focus on weak areas
+
+******************************************************************************
+                    WEEK 11-12: FINAL PREP & EXAM
+******************************************************************************
+
+------------------------------------------------------------------------------
+DAY 71-77: Intensive Review
+------------------------------------------------------------------------------
+  [ ] Review all notes
+  [ ] Flashcards for key concepts
+  [ ] Watch exam prep videos
+  [ ] More practice exams
+
+------------------------------------------------------------------------------
+DAY 78-84: Exam Week
+------------------------------------------------------------------------------
+  [ ] Day 78-82: Light review, don't cram
+  [ ] Day 83: Rest day
+  [ ] Day 84: TAKE THE EXAM!
+
+EXAM TIPS:
+  - Read questions carefully
+  - Eliminate wrong answers first
+  - Flag difficult questions, return later
+  - Trust your preparation
+  - You need 70% to pass (700/1000)
+
+
+================================================================================
+                              RESOURCES & LINKS
+================================================================================
+
+FREE LEARNING:
+  - AWS Skill Builder: https://skillbuilder.aws/
+  - AWS Free Tier: https://aws.amazon.com/free/
+  - AWS Documentation: https://docs.aws.amazon.com/
+  - AWS Whitepapers: https://aws.amazon.com/whitepapers/
+
+YOUTUBE CHANNELS:
+  - freeCodeCamp
+  - TechWorld with Nana
+  - Be A Better Dev
+  - AWS (Official)
+
+PRACTICE EXAMS:
+  - Tutorials Dojo: https://tutorialsdojo.com/
+  - AWS Skill Builder
+  - Whizlabs
+
+COMMUNITIES:
+  - Reddit: r/aws, r/AWSCertifications
+  - AWS re:Post: https://repost.aws/
+  - Discord: AWS Community servers
+
+
+================================================================================
+                              DAILY CHECKLIST TEMPLATE
+================================================================================
+
+Date: _______________
+Day #: ___ / 90
+
+Today's Topics:
+  [ ] Topic 1: _______________________
+  [ ] Topic 2: _______________________
+  [ ] Topic 3: _______________________
+
+Hands-On Completed:
+  [ ] Lab 1: _______________________
+  [ ] Lab 2: _______________________
+
+Notes Taken:
+  [ ] Key concepts documented
+
+Questions/Doubts:
+  _________________________________________________
+
+Cost Check:
+  [ ] Verified billing dashboard
+  [ ] Resources cleaned up
+
+
+================================================================================
+                              COST MANAGEMENT REMINDERS
+================================================================================
+
+CHECK DAILY:
+  - Billing Dashboard for any unexpected charges
+  - Running EC2 instances (stop when not using)
+  - NAT Gateways (delete when not needed - $0.045/hour!)
+  - Elastic IPs (free only when attached to running instance)
+  - RDS instances (delete after practice)
+
+FREE TIER LIMITS (12 months):
+  - EC2: 750 hours/month of t2.micro
+  - S3: 5 GB storage
+  - RDS: 750 hours/month of db.t3.micro
+  - Lambda: 1 million requests/month
+
+ALWAYS DELETE:
+  - NAT Gateways when not needed
+  - RDS instances after practice
+  - Elastic IPs not attached to instances
+  - EBS volumes from terminated instances
+
+
+================================================================================
+              GOOD LUCK ON YOUR AWS JOURNEY! ☁️
+================================================================================
+
+Remember:
+  - Hands-on practice is MORE important than just reading
+  - Don't be afraid to make mistakes in the free tier
+  - Join communities and ask questions
+  - Consistency beats intensity - study a little every day
+  - You CAN pass the certification!
+
+Created: November 2026
+Target Certification: AWS Certified Cloud Practitioner (CLF-C02)

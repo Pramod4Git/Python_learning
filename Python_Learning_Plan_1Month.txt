@@ -1,0 +1,653 @@
+================================================================================
+                    PYTHON SCRIPTING - 1 MONTH LEARNING PLAN
+================================================================================
+
+Target: Learn Python from basics to scripting proficiency
+Duration: 4 Weeks (30 Days)
+Daily Commitment: 1.5 - 2 hours
+Goal: Be able to write automation scripts, handle files, work with data
+
+================================================================================
+                              WEEK 1: PYTHON FUNDAMENTALS
+================================================================================
+
+------------------------------------------------------------------------------
+DAY 1: Setup & Introduction
+------------------------------------------------------------------------------
+Topics:
+  [ ] Install Python 3.9+ from python.org
+  [ ] Install VS Code with Python extension
+  [ ] Understand what Python is and its uses
+  [ ] Run your first "Hello, World!" program
+  [ ] Learn about Python REPL (interactive mode)
+
+Practice:
+  - Create a file: hello.py
+  - Print your name, age, and favorite hobby
+  - Use Python REPL to do simple math (2+2, 10*5)
+
+Resources:
+  - https://www.python.org/downloads/
+  - https://code.visualstudio.com/docs/python/python-tutorial
+
+------------------------------------------------------------------------------
+DAY 2: Variables & Data Types
+------------------------------------------------------------------------------
+Topics:
+  [ ] Variables and naming conventions
+  [ ] Data types: int, float, str, bool
+  [ ] Type conversion (int(), str(), float())
+  [ ] Comments (# and """)
+
+Practice:
+  - Create variables for: name, age, height, is_student
+  - Convert string "123" to integer
+  - Print types using type() function
+  - Write a program that stores and prints personal info
+
+Code to write:
+  name = "Your Name"
+  age = 25
+  height = 5.9
+  is_student = True
+  print(f"Name: {name}, Age: {age}, Height: {height}")
+
+------------------------------------------------------------------------------
+DAY 3: Strings & String Methods
+------------------------------------------------------------------------------
+Topics:
+  [ ] String creation (single, double, triple quotes)
+  [ ] String concatenation (+) and repetition (*)
+  [ ] String indexing and slicing [start:end:step]
+  [ ] Common methods: upper(), lower(), strip(), split(), join()
+  [ ] f-strings (formatted strings)
+
+Practice:
+  - Extract first 5 characters from a string
+  - Reverse a string using slicing [::-1]
+  - Convert "hello world" to "HELLO WORLD"
+  - Split a sentence into words
+  - Create a formatted greeting using f-string
+
+------------------------------------------------------------------------------
+DAY 4: Numbers & Operators
+------------------------------------------------------------------------------
+Topics:
+  [ ] Arithmetic operators: + - * / // % **
+  [ ] Comparison operators: == != < > <= >=
+  [ ] Logical operators: and, or, not
+  [ ] Assignment operators: += -= *= /=
+  [ ] Math module: sqrt(), pow(), ceil(), floor()
+
+Practice:
+  - Calculate area of circle (pi * r * r)
+  - Check if a number is even or odd
+  - Convert Celsius to Fahrenheit
+  - Calculate simple interest: (P * R * T) / 100
+
+------------------------------------------------------------------------------
+DAY 5: Lists
+------------------------------------------------------------------------------
+Topics:
+  [ ] Creating lists
+  [ ] Accessing elements (indexing)
+  [ ] List slicing
+  [ ] Methods: append(), insert(), remove(), pop(), sort(), reverse()
+  [ ] List comprehension basics
+  [ ] len(), min(), max(), sum()
+
+Practice:
+  - Create a list of 5 fruits
+  - Add a new fruit, remove one
+  - Sort the list alphabetically
+  - Find the longest fruit name
+  - Create a list of squares [1, 4, 9, 16, 25]
+
+------------------------------------------------------------------------------
+DAY 6: Tuples & Sets
+------------------------------------------------------------------------------
+Topics:
+  [ ] Tuples: immutable sequences
+  [ ] When to use tuples vs lists
+  [ ] Sets: unique elements, no order
+  [ ] Set operations: union, intersection, difference
+  [ ] Converting between list, tuple, set
+
+Practice:
+  - Create a tuple of coordinates (x, y, z)
+  - Unpack tuple values
+  - Create sets of odd and even numbers
+  - Find common elements between two sets
+  - Remove duplicates from a list using set
+
+------------------------------------------------------------------------------
+DAY 7: Dictionaries
+------------------------------------------------------------------------------
+Topics:
+  [ ] Creating dictionaries {key: value}
+  [ ] Accessing, adding, updating values
+  [ ] Methods: keys(), values(), items(), get(), pop()
+  [ ] Looping through dictionaries
+  [ ] Nested dictionaries
+
+Practice:
+  - Create a dictionary for a student (name, age, grades)
+  - Add a new key-value pair
+  - Loop through and print all keys and values
+  - Create a phone book dictionary
+  - Access nested dictionary values
+
+WEEK 1 PROJECT:
+  Build a simple contact book that stores:
+  - Name, Phone, Email for multiple contacts
+  - Use a list of dictionaries
+  - Print all contacts in a formatted way
+
+
+================================================================================
+                              WEEK 2: CONTROL FLOW & FUNCTIONS
+================================================================================
+
+------------------------------------------------------------------------------
+DAY 8: Conditional Statements
+------------------------------------------------------------------------------
+Topics:
+  [ ] if statement
+  [ ] if-else statement
+  [ ] if-elif-else chain
+  [ ] Nested conditions
+  [ ] Ternary operator: x if condition else y
+
+Practice:
+  - Check if number is positive, negative, or zero
+  - Grade calculator (A, B, C, D, F based on score)
+  - Check if year is leap year
+  - Simple login validation (username & password check)
+
+------------------------------------------------------------------------------
+DAY 9: Loops - for & while
+------------------------------------------------------------------------------
+Topics:
+  [ ] for loop with range()
+  [ ] for loop with lists, strings, dictionaries
+  [ ] while loop
+  [ ] break, continue, pass
+  [ ] else clause with loops
+
+Practice:
+  - Print numbers 1 to 10
+  - Print even numbers from 1 to 20
+  - Sum of numbers from 1 to 100
+  - Print multiplication table
+  - Countdown timer using while loop
+
+------------------------------------------------------------------------------
+DAY 10: Loops - Advanced
+------------------------------------------------------------------------------
+Topics:
+  [ ] Nested loops
+  [ ] enumerate() function
+  [ ] zip() function
+  [ ] List comprehensions with conditions
+
+Practice:
+  - Print a pattern of stars (triangle)
+  - Create multiplication table (2D)
+  - Combine two lists using zip
+  - Filter even numbers using list comprehension
+  - Find prime numbers up to 50
+
+------------------------------------------------------------------------------
+DAY 11: Functions - Basics
+------------------------------------------------------------------------------
+Topics:
+  [ ] Defining functions with def
+  [ ] Parameters and arguments
+  [ ] Return statement
+  [ ] Default parameter values
+  [ ] Docstrings
+
+Practice:
+  - Function to add two numbers
+  - Function to check if number is prime
+  - Function to calculate factorial
+  - Function to reverse a string
+  - Function with default greeting message
+
+------------------------------------------------------------------------------
+DAY 12: Functions - Advanced
+------------------------------------------------------------------------------
+Topics:
+  [ ] *args (variable positional arguments)
+  [ ] **kwargs (variable keyword arguments)
+  [ ] Lambda functions
+  [ ] map(), filter(), reduce()
+  [ ] Scope: local vs global variables
+
+Practice:
+  - Function that accepts any number of arguments and returns sum
+  - Use lambda to double each number in a list
+  - Filter out negative numbers using filter()
+  - Calculate sum of squares using map and sum
+  - Understand global vs local variable behavior
+
+------------------------------------------------------------------------------
+DAY 13: Error Handling
+------------------------------------------------------------------------------
+Topics:
+  [ ] Types of errors: Syntax, Runtime, Logical
+  [ ] try-except blocks
+  [ ] except with specific exceptions
+  [ ] else and finally clauses
+  [ ] raise statement (custom exceptions)
+
+Practice:
+  - Handle division by zero
+  - Handle invalid user input (ValueError)
+  - Handle file not found error
+  - Create a function that validates age (raise if < 0)
+  - Calculator with error handling
+
+------------------------------------------------------------------------------
+DAY 14: Review & Mini Project
+------------------------------------------------------------------------------
+Review:
+  [ ] Go through all Week 1 & 2 concepts
+  [ ] Solve 5 practice problems mixing all concepts
+
+WEEK 2 PROJECT:
+  Build a Number Guessing Game:
+  - Computer picks random number 1-100
+  - User guesses, get hints (higher/lower)
+  - Count number of attempts
+  - Handle invalid inputs
+  - Option to play again
+
+
+================================================================================
+                              WEEK 3: FILE HANDLING & MODULES
+================================================================================
+
+------------------------------------------------------------------------------
+DAY 15: File Handling - Reading
+------------------------------------------------------------------------------
+Topics:
+  [ ] Opening files: open() function
+  [ ] File modes: r, w, a, r+
+  [ ] Reading: read(), readline(), readlines()
+  [ ] Using 'with' statement (context manager)
+  [ ] File paths (absolute vs relative)
+
+Practice:
+  - Create a text file with some content
+  - Read entire file content
+  - Read file line by line
+  - Count words in a file
+  - Find specific word in file
+
+------------------------------------------------------------------------------
+DAY 16: File Handling - Writing
+------------------------------------------------------------------------------
+Topics:
+  [ ] Writing to files: write(), writelines()
+  [ ] Appending to files
+  [ ] Working with CSV files (manual)
+  [ ] File existence check: os.path.exists()
+
+Practice:
+  - Write a list of names to a file
+  - Append new data to existing file
+  - Copy content from one file to another
+  - Create a simple log file
+  - Write a CSV file with headers and data
+
+------------------------------------------------------------------------------
+DAY 17: Working with CSV & JSON
+------------------------------------------------------------------------------
+Topics:
+  [ ] csv module: reader, writer, DictReader, DictWriter
+  [ ] json module: load, dump, loads, dumps
+  [ ] Reading/writing structured data
+  [ ] Pretty printing JSON
+
+Practice:
+  - Read a CSV file and print each row
+  - Write data to CSV with headers
+  - Convert Python dictionary to JSON file
+  - Read JSON file into Python dictionary
+  - Modify JSON data and save back
+
+------------------------------------------------------------------------------
+DAY 18: Modules & Packages
+------------------------------------------------------------------------------
+Topics:
+  [ ] What are modules?
+  [ ] import, from...import, import as
+  [ ] Creating your own module
+  [ ] __name__ == "__main__"
+  [ ] Installing packages with pip
+  [ ] Popular packages: requests, datetime
+
+Practice:
+  - Import math module and use sqrt, pi
+  - Create a module with utility functions
+  - Import your module in another file
+  - Install requests package
+  - Explore datetime module
+
+------------------------------------------------------------------------------
+DAY 19: Working with Dates & Time
+------------------------------------------------------------------------------
+Topics:
+  [ ] datetime module
+  [ ] date, time, datetime objects
+  [ ] Formatting dates: strftime()
+  [ ] Parsing dates: strptime()
+  [ ] Time differences (timedelta)
+  [ ] time module: sleep(), time()
+
+Practice:
+  - Print current date and time
+  - Format date as "DD-MM-YYYY"
+  - Calculate age from birthdate
+  - Find days until next birthday
+  - Create a countdown timer
+
+------------------------------------------------------------------------------
+DAY 20: OS & System Operations
+------------------------------------------------------------------------------
+Topics:
+  [ ] os module: getcwd(), listdir(), mkdir(), remove()
+  [ ] os.path: join(), exists(), isfile(), isdir()
+  [ ] shutil module: copy, move files
+  [ ] sys module: argv, exit
+  [ ] Environment variables
+
+Practice:
+  - List all files in current directory
+  - Create a new folder
+  - Move/copy files between folders
+  - Get command line arguments
+  - Read environment variable
+
+------------------------------------------------------------------------------
+DAY 21: Review & Mini Project
+------------------------------------------------------------------------------
+Review:
+  [ ] Practice file operations
+  [ ] Work with different file formats
+
+WEEK 3 PROJECT:
+  Build an Expense Tracker:
+  - Add expenses (date, category, amount, description)
+  - Save data to CSV file
+  - Load existing data on startup
+  - Show total expenses by category
+  - Show expenses for a specific date range
+
+
+================================================================================
+                              WEEK 4: ADVANCED TOPICS & AUTOMATION
+================================================================================
+
+------------------------------------------------------------------------------
+DAY 22: Object-Oriented Programming - Basics
+------------------------------------------------------------------------------
+Topics:
+  [ ] Classes and objects
+  [ ] __init__ method (constructor)
+  [ ] Instance attributes and methods
+  [ ] self keyword
+  [ ] Class vs instance attributes
+
+Practice:
+  - Create a Car class with make, model, year
+  - Create a Person class with name, age
+  - Add methods to classes
+  - Create multiple objects
+  - Print object information
+
+------------------------------------------------------------------------------
+DAY 23: OOP - Intermediate
+------------------------------------------------------------------------------
+Topics:
+  [ ] Inheritance
+  [ ] Method overriding
+  [ ] super() function
+  [ ] Multiple inheritance basics
+  [ ] isinstance() and issubclass()
+
+Practice:
+  - Create Animal class, inherit Dog and Cat
+  - Override methods in child classes
+  - Use super() to call parent methods
+  - Create Employee -> Manager hierarchy
+  - Check types using isinstance()
+
+------------------------------------------------------------------------------
+DAY 24: OOP - Advanced
+------------------------------------------------------------------------------
+Topics:
+  [ ] Encapsulation (private attributes _)
+  [ ] Property decorators (@property)
+  [ ] Class methods (@classmethod)
+  [ ] Static methods (@staticmethod)
+  [ ] Magic methods (__str__, __repr__, __len__)
+
+Practice:
+  - Create BankAccount with private balance
+  - Use property for read-only attributes
+  - Create a class method for object counting
+  - Implement __str__ for custom printing
+  - Create a custom __add__ method
+
+------------------------------------------------------------------------------
+DAY 25: Regular Expressions
+------------------------------------------------------------------------------
+Topics:
+  [ ] re module: search(), match(), findall()
+  [ ] Pattern basics: . ^ $ * + ? {} [] |
+  [ ] Character classes: \d \w \s
+  [ ] Groups and capturing
+  [ ] Substitution: re.sub()
+
+Practice:
+  - Validate email address format
+  - Extract phone numbers from text
+  - Find all URLs in a string
+  - Replace dates in different formats
+  - Extract data from log file
+
+------------------------------------------------------------------------------
+DAY 26: Web Scraping Basics
+------------------------------------------------------------------------------
+Topics:
+  [ ] requests module: get(), post()
+  [ ] Response object: status_code, text, json()
+  [ ] BeautifulSoup basics (optional)
+  [ ] HTTP methods and status codes
+  [ ] Handling API responses
+
+Practice:
+  - Fetch a webpage and print HTML
+  - Get data from a public API (JSONPlaceholder)
+  - Parse JSON response
+  - Handle HTTP errors
+  - Download an image from URL
+
+------------------------------------------------------------------------------
+DAY 27: Automation with Python
+------------------------------------------------------------------------------
+Topics:
+  [ ] Automating file organization
+  [ ] Batch renaming files
+  [ ] Sending emails (smtplib basics)
+  [ ] Working with Excel (openpyxl - you have this!)
+  [ ] Scheduling tasks (brief intro)
+
+Practice:
+  - Script to organize files by extension
+  - Batch rename files with pattern
+  - Read/modify Excel file
+  - Generate report from data
+  - Create automated backup script
+
+------------------------------------------------------------------------------
+DAY 28: Testing & Debugging
+------------------------------------------------------------------------------
+Topics:
+  [ ] Print debugging
+  [ ] Using debugger in VS Code
+  [ ] assert statements
+  [ ] unittest basics
+  [ ] Writing simple test cases
+
+Practice:
+  - Add print statements to debug code
+  - Use VS Code debugger with breakpoints
+  - Write assert statements for validation
+  - Create test cases for a function
+  - Test your previous functions
+
+------------------------------------------------------------------------------
+DAY 29: Best Practices & Code Quality
+------------------------------------------------------------------------------
+Topics:
+  [ ] PEP 8 style guide
+  [ ] Meaningful variable names
+  [ ] Code documentation
+  [ ] Virtual environments (venv)
+  [ ] Requirements.txt management
+  [ ] Git basics for version control
+
+Practice:
+  - Refactor old code to follow PEP 8
+  - Add docstrings to functions
+  - Create a virtual environment
+  - Generate requirements.txt
+  - Initialize git repository
+
+------------------------------------------------------------------------------
+DAY 30: Final Project
+------------------------------------------------------------------------------
+CAPSTONE PROJECT - Choose One:
+
+Option A: File Organizer Tool
+  - Scans a folder for files
+  - Organizes by file type (images, documents, etc.)
+  - Creates dated backup
+  - Logs all operations
+  - Command line arguments for options
+
+Option B: Data Analysis Script
+  - Reads CSV/Excel data
+  - Performs calculations (sum, average, etc.)
+  - Filters and sorts data
+  - Generates summary report
+  - Exports results to new file
+
+Option C: Simple Automation Bot
+  - Monitors a folder for new files
+  - Processes files automatically
+  - Sends notification/log
+  - Error handling
+  - Runs continuously
+
+
+================================================================================
+                              ADDITIONAL RESOURCES
+================================================================================
+
+Free Learning Websites:
+  - Python.org Official Tutorial: https://docs.python.org/3/tutorial/
+  - W3Schools Python: https://www.w3schools.com/python/
+  - Real Python: https://realpython.com/
+  - Automate the Boring Stuff: https://automatetheboringstuff.com/
+
+Practice Platforms:
+  - HackerRank Python: https://www.hackerrank.com/domains/python
+  - LeetCode: https://leetcode.com/
+  - Codewars: https://www.codewars.com/
+  - Exercism Python Track: https://exercism.org/tracks/python
+
+YouTube Channels:
+  - Corey Schafer (Python tutorials)
+  - Tech With Tim
+  - Programming with Mosh
+
+Books (Free Online):
+  - "Automate the Boring Stuff with Python" by Al Sweigart
+  - "Think Python" by Allen Downey
+
+
+================================================================================
+                              DAILY CHECKLIST TEMPLATE
+================================================================================
+
+Date: _______________
+Day #: ___ / 30
+
+Today's Topics:
+  [ ] Topic 1: _______________________
+  [ ] Topic 2: _______________________
+  [ ] Topic 3: _______________________
+
+Practice Completed:
+  [ ] Exercise 1: _______________________
+  [ ] Exercise 2: _______________________
+  [ ] Exercise 3: _______________________
+
+Code Written Today:
+  File: _______________________
+  Lines: _______________________
+
+Challenges Faced:
+  _________________________________________________
+  _________________________________________________
+
+Tomorrow's Plan:
+  _________________________________________________
+
+
+================================================================================
+                              TIPS FOR SUCCESS
+================================================================================
+
+1. CODE EVERY DAY
+   - Even 30 minutes of coding is better than nothing
+   - Consistency beats intensity
+
+2. TYPE THE CODE, DON'T COPY-PASTE
+   - Muscle memory helps retention
+   - You'll catch errors and learn faster
+
+3. MAKE MISTAKES
+   - Errors are learning opportunities
+   - Read error messages carefully
+
+4. BUILD PROJECTS
+   - Apply what you learn immediately
+   - Personal projects are more memorable
+
+5. EXPLAIN YOUR CODE
+   - Write comments
+   - Teach someone else (or a rubber duck!)
+
+6. USE VERSION CONTROL
+   - Start using Git early
+   - Track your progress
+
+7. JOIN COMMUNITIES
+   - Reddit: r/learnpython
+   - Discord Python servers
+   - Stack Overflow (for questions)
+
+
+================================================================================
+              GOOD LUCK ON YOUR PYTHON JOURNEY! 🐍
+================================================================================
+
+Created: November 2026
+For: EDSP Test Automation Team
+
+Remember: The goal is progress, not perfection!
